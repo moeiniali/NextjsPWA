@@ -1,0 +1,27 @@
+.AtomMolH4 {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: 500;
+ line-height: 22px;
+ letter-spacing: 0em;
+ text-align: left;
+ float: right;
+ color: #3F4759;
+}
+
+
+.dropDownEditProfile {
+ animation-name: wipe-in-up;
+}
+
+
+/* Center charts with explicit width and heights */
+.ag-chart-wrapper {
+ display: flex !important;
+ align-items: center !important;
+ justify-content: center !important;
+ width: 100% !important;
+ height: 210px !important;
+ margin-bottom: 16px !important;
+ font-family: IRANSansX !important;
+}

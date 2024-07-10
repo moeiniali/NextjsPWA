@@ -1,0 +1,95 @@
+{
+ "workbench.colorCustomizations": {
+    "[Default Dark Modern]": {
+       "sideBar.background": "#002c38",
+       "editor.background": "#002c38",
+       "editorGroup.border": "#ffffffad",
+       "minimap.selectionHighlight": "#1b8600ad",
+       "minimap.errorHighlight": "#ff0000ad",
+       "editor.wordHighlightBackground": "#0b5e00",
+       "editor.wordHighlightStrongBackground": "#0b5e00",
+       "editorCodeLens.foreground": "#b2b1b9d2",
+       "terminal.background": "#002c38",
+       "terminal.border": "#002c38",
+       "terminal.tab.activeBorder": "#ffffffad",
+       //Brackets---------------------------------
+       "editorBracketHighlight.foreground1": "#0026ff",
+       "editorBracketHighlight.foreground2": "#eb0089",
+       "editorBracketHighlight.foreground3": "#00ff22d3",
+       "editorBracketHighlight.foreground4": "#eeff00d3",
+       //برای زمانی که کد ها به حالت جمع شده هستند----------- 
+       "editor.foldBackground": "#747c0077",
+       //حاشیه های minimap-------------------------
+       "editorOverviewRuler.background": "#ffffff00",
+       // backgropund for error-----------------
+       "editorError.background": "#81818141",
+       // backgropund for warning-----------------
+       "editorWarning.foreground": "#cccf00cb",
+       // کد های استفاده نشده -----------------
+       "editorUnnecessaryCode.border": "#e7f700a2",
+       //bachground for suggested--------------
+       "editorSuggestWidget.background": "#00000081",
+       //sidevar
+       "sideBar.border": "#ffffff",
+       "sideBarSectionHeader.background": "#0e3541",
+       "sideBarTitle.foreground": "#ffffff",
+       "scrollbarSlider.background": "#7a0070cb",
+    },
+    "statusBar.background": "#002c38",
+    "sideBar.background": "#002c38",
+    "menu.background": "#002c38",
+    "sideBar.border": "#002c38",
+    "explorer.background": "#002c38",
+    "badge.background": "#002c38",
+    "editor.lineNumbers.color": "#002c38",
+    "activityBar.background": "#002c38",
+    "activityBar.foreground": "#646464",
+    "titleBar.activeBackground": "#002c38",
+    "editorGroupHeader.tabsBackground": "#002c38",
+    "tab.activeBackground": "#002c38",
+    "tab.activeBorder": "#002c38",
+    "tab.inactiveBackground": "#002c38",
+    "tab.hoverBackground": "#044447",
+ },
+ "editor.tokenColorCustomizations": {
+    "textMateRules": [
+       {
+          "scope": "variable",
+          "settings": {
+             "foreground": "#00b9daf5" // رنگ متغیرها
+          }
+       },
+       {
+          "scope": "support.type.property-name",
+          "settings": {
+             "foreground": "#00c6e0" // رنگ پراپرتی‌ها
+          }
+       },
+       {
+          "scope": "variable.parameter",
+          "settings": {
+             "foreground": "#e000d5e8" // رنگ پارامترها
+          }
+       },
+       {
+          "scope": "keyword.operator", // المان های محاسباتی + = _ /
+          "settings": {
+             "foreground": "#eeff00"
+          }
+       },
+       {
+          "scope": "storage.type", //const ها-------------------
+          "settings": {
+             "foreground": "#e6cf00d2"
+          }
+       },
+       {
+          "scope": "variable.other.property",
+          "settings": {
+             "foreground": "#48ff00cc" // رنگ property ها
+          }
+       }
+    ]
+ },
+ "editor.inlineSuggest.showToolbar": "always",
+}

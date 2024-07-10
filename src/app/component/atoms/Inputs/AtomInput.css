@@ -1,0 +1,20 @@
+
+
+
+
+
+.inputStyle {
+ width: 100%;
+ height: 40px;
+ padding: 0 12px;
+ border: 1px solid #E1E1E1;
+ border-radius: 4px;
+ color: #757575;
+ font-size: 14px;
+ outline: none;
+
+ &:focus {
+  border-color: #57A3FD;
+  outline: none;
+ }
+}
